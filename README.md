@@ -126,3 +126,7 @@ __Users__
 docker pull necdetuygur/productcatalog:1
 docker run --name ProductCatalog -e PORT=3543 -dp 3543:3543 necdetuygur/productcatalog:1
 ```
+
+http://localhost:3543/swagger/index.html
+
+http://localhost:3543/Application
