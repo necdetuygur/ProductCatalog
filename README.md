@@ -121,3 +121,8 @@ __Users__
 
 ## Docker Hub
 [https://hub.docker.com/r/necdetuygur/productcatalog](https://hub.docker.com/r/necdetuygur/productcatalog)
+
+```sh
+docker pull necdetuygur/productcatalog:1
+docker run --name ProductCatalog -e PORT=3543 -dp 3543:3543 necdetuygur/productcatalog:1
+```
